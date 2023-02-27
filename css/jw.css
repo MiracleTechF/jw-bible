@@ -1,0 +1,103 @@
+
+
+h3{
+    padding-bottom: 1000px;
+    height: 300px;
+    padding-right: 50px;
+}
+.logo{
+    width: 100px;
+    height: auto;
+    padding-top: auto;
+    position: relative;
+    
+}
+.flex{
+    width: fit-content;
+    height: 200px;
+    padding-bottom: 900%;
+    padding-top: 0;
+
+
+}
+.flex ul{
+    display: inline;
+}
+.flex ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 30000px;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+.lang{
+    width: 70px;
+    height: 30px;
+   
+
+}
+.search{
+    width: 17px;
+    height: 2x;
+   
+ 
+}
+.login{
+    width: 50px;
+    height: 30px;
+
+}
+.input{
+    width: 200px;
+    height: 30px;
+  
+
+}
+.nav{
+    width: 50px;
+    height: auto;
+    display: inline-block;
+}
+.nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+.home{
+    width: 30px;
+    height: auto;
+    display: inline-block;
+}
+.htb{
+    display: inline-block;
+    width: fit-content;
+    height: max-content;
+    padding-top: 10px;
+
+}
+.htb li{
+    list-style-type: none;
+    display: inline;
+    padding: 30px;
+    position: relative;
+    padding-bottom: 900000px;
+}
+
+.bible{
+    width: 50px;
+    height: auto;
+}
+.about{
+    width: 40px;
+    height: auto;
+}
+.library{
+    width: 40px;
+    height: auto;
+}
+.news{
+    width: 40px;
+    height: auto;
+}

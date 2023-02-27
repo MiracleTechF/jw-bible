@@ -1,0 +1,149 @@
+body{
+    box-sizing: border-box;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 10px;
+    margin: 20px;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+.container{
+    position: relative;
+    top: 1px;
+    bottom: 20px;
+    left: 450px;
+    background-color: #fff;
+    width: 350px;
+    height: 570px;
+    /* box-shadow:  3 5px 3 5px 1px  white; */
+    box-shadow: 20px 20px 35px gray;
+    
+}
+.layout{
+    background-color: rgb(00, 00, 00);
+    display: flex;
+    width: 350px;
+    height: 20px;
+}
+.wifi{
+    position: relative;
+    left: 5px;
+    width: 20px;
+    height: 18px;
+    
+}
+.dots{
+    width: px;
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+}
+.contents{
+    display: flex;
+}
+.time{
+    position: relative;
+    left: 100px;
+}
+.battery{
+    position: relative;
+    left: 182px;
+    bottom: 15px;
+}
+.input{
+    width: 30px;
+    height: 10px;
+    border: 0 solid #000;
+    border-radius: 3px;
+}
+
+
+.bgimages{
+    width: 350px;
+    height: 250px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.u-logo{
+    position: relative;
+    bottom: 150px;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+}
+.input-1{
+    position: relative;
+    left: 20px;
+    border: 2px solid white;
+    /* border-color:  #3271c4; */
+    border-color: gray;
+    border-width: 2px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    padding-left: 20px;
+   
+}
+.input-2{
+    position: relative;
+    left: 20px;
+    border: 2px solid white;
+    /* border-color:  #3271c4; */
+    border-color: gray;
+    border-width: 2px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    padding-left: 20px;
+}
+
+
+.user-icon{
+    width: 20px;
+    height: auto;
+    position: relative;
+    right: 230px;
+    top: 5px;
+    
+}
+.key-icon{
+    width: 20px;
+    height: auto;
+    position: relative;
+    right: 228px;
+    top: 5px;
+}
+.forgot{
+    position: relative;
+    left: 200px;
+    top: 10px;
+    color: rgb(95, 95, 230);
+    text-decoration: none;
+}
+.sum{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 39px;
+}
+.submit{
+    background-color: rgb(95, 95, 230) ;
+    color: #f1f1f1;
+    border: 2px solid rgb(95, 95, 230);
+    border-radius: 10px;
+    width: 200px;
+}
+.submit:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.submit::after{
+    color: red;
+    background-color: crimson;
+}
+.submit::before{
+    color: yellow;
+    background-color: darksalmon;
+}
